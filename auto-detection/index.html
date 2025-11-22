@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/default.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highlightjs-line-numbers.js/dist/highlightjs-line-numbers.min.js"></script>
 <style>
 .blinking-cursor {
   font-weight: 100;
@@ -89,10 +90,9 @@ func main () {
 
 <script>
 document.addEventListener('DOMContentLoaded', (event) => {
-hljs.highlightAll();
+  hljs.highlightAll();
+  hljs.initLineNumbersOnLoad();
 });
-
-
 </script> 
 
 </body>
